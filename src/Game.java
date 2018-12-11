@@ -61,10 +61,6 @@ public class Game {
             expandedNodes += 1;
         }
         System.out.println(expandedNodes);
-//        path.getPuzzles().forEach(integers -> {
-//            Arrays.stream(integers).forEach(ints -> System.out.println(Arrays.deepToString(ints)));
-//        });
-        System.out.println();
 
     }
 

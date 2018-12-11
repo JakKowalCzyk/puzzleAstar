@@ -41,7 +41,7 @@ public class Game {
 
             Integer[][] endnode = path.getPuzzles().get(path.getPuzzles().size() - 1);
 
-            if (Arrays.deepToString(endnode).equals(Arrays.toString(end))) {
+            if (Arrays.deepToString(endnode).equals(Arrays.deepToString(end))) {
                 break;
             }
             if (contains(expanded, endnode)) {
